@@ -1,0 +1,273 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+header{
+    margin: 1px;
+    background-color:#ffffff;
+    display: flex;
+    justify-content: space-between;
+    
+}
+header img{
+    width: 150px;
+    height: 55px;
+}
+.headerLeft{
+    display: flex;
+    margin-left: 130px;
+}
+.headerLeft p{
+    padding-top: 20px;
+    margin-left: 35px;
+}
+.search{
+    display: flex;
+}
+.headerRight{
+    display: flex;
+    margin-right: 130px;
+    padding-top: 18px;
+    padding-bottom: 5px;
+}
+
+.search-icon::before {
+    content: "\1F50E"; 
+    font-size: 18px; 
+    margin-left: 6px;   
+  }
+
+.cart-icon::before {
+    content: "\1F6D2";
+    font-size: 18px;
+    margin-left: 6px;
+}
+.cart{
+    display: flex;
+}
+.headerRight p{
+    margin-left: 30px;
+    padding-top: 6px;
+}
+.dropdown::before{
+    content:"\2335";
+    font-size: 20px;
+    padding-bottom: 19px;
+    margin-left: 3px;
+}
+.all-microsoft{
+    display: flex;
+}
+.sign-in{
+    display: flex;
+}
+.sign-in img{
+    width: 40px;
+    height: auto;
+}
+.toprightIcons{
+    margin-top: 3px;
+}
+.hero-div{
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Laptop-5-M1-Platinum-Graphite-01-1:VP5-1920x600");
+    height: 80vh;
+    background-repeat: no-repeat;
+}
+.hero-div{
+    padding-top:160px ;
+    padding-left: 200px;
+    padding-right:63%;
+}
+.hero-div ul li{
+    margin-top: 30px;
+    list-style: none;
+
+}
+.Learn-more{
+    background-color: #0067b8;
+    width: 112px;
+    height: 33px;
+    color: white;
+}
+.learn-text{
+    font-size: 19px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.hero-bottom{
+    display: flex;
+    justify-content: center;
+}
+.hero-bottom img{
+    margin-left: 60px;
+
+}
+.hero-bottom p{
+    margin-top: 10px;
+    margin-right: 40px;
+
+}
+
+.microsoft-logo{
+    margin-left: 20px;
+}
+.WindowsText{
+    margin-left: 30px;
+}
+.upper-middle{
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 50px;
+}
+.middle-height{
+    margin-top: 100px;
+}
+.microsoft-365{
+    display: flex;
+    align-items: center;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.upper-middle img{
+    width: 400px;
+}
+.upper-middle p{
+    padding-top: 30px;
+}
+.upper-middle section{
+    margin-left: 25px;
+}
+.for-up-to{
+    padding-left: 35px;
+}
+.middle{
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-9-M1-Family-02-1:VP5-1596x600");
+    height: 67vh;
+    width: auto;
+    background-repeat: no-repeat;
+    margin: 6%;
+    margin-left: 8.5%;
+    align-items: center;
+    padding-left: 53%;
+    padding-top: 12%;
+}
+.middle p{
+    margin-top: 20px;
+}
+.middle a{
+    border: 2px solid #0067b8;
+    background-color: #0067b8;
+    color: white;
+    padding: 4px;
+    text-decoration: none;
+}
+.lower-middle h1{
+    margin-left: 1.5%;
+}
+.lower-middle{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.social-media ul{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin-left: 7%;
+    
+}
+.social-icons{
+    width: 35px;
+    margin-left: 15px;
+}
+.social-p{
+    padding-top: 7px;
+}
+.social-media{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.last-part{
+    display: flex;
+    background-color: #f2f2f2;
+    padding-top: 50px;
+    
+    
+
+}
+.last-part ul li{
+    list-style: none;
+    padding-top: 15px;
+    font-size: 13px;
+}
+.last-part ul{
+    padding-left: 7%;
+    
+}
+.last-part ul li h3{
+    font-size: 18px ;
+}
+.upper-middle a{
+    text-decoration: none;
+}
+.upper-middle h2{
+    margin-top: 10px;
+}
+.lower-middle h1{
+    padding-bottom: 8px;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 16px;
+}
+footer{ padding-top: 50px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+}
+footer div ul{
+    display: flex;
+}
+footer div ul li{
+    list-style: none;
+    
+}
+.footer-left img{
+    width: auto;
+    height: 15px;
+}
+.footer-left{
+    display: flex;
+    padding-left: 30px;
+}
+.footer-right ul li{
+    margin-left: 20px;
+}
+.footer-left p{
+    padding-left: 5px;
+    font-size: 14px;
+}
+.footer-right ul li{
+    font-size: 13px;
+}
